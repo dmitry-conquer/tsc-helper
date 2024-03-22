@@ -5,100 +5,143 @@
     <div class="relative flex min-h-screen flex-col overflow-hidden">
       @@include('components/header.html', { })
       <main>
-        <section class="relative py-[160px]">
+        <section class="relative py-[100px] sm:py-[160px]">
           <img src="./img/hero-bg.webp" alt="Державні послуги в онлайні." class="absolute left-0 top-0 h-full w-full object-cover" />
-          <div class="relative z-10 mx-auto max-w-[870px] text-center">
-            <h1 class="mb-[35px] text-[45px] font-extrabold leading-snug text-white">Допоможемо з отриманням <span class="text-secondary">посвідчення водія</span> усіх категорій</h1>
-            <p class="mb-[35px] text-xl text-white">Якщо Вам потрібна допомога у швидкому отриманні або виготовленні водійського (Україна, Польща), посвідчення машиніста / тракториста, техп-рту тоді звертайтеся до нас ми Вам обов'язково допоможемо.</p>
-            <a href="#" class="bg-primary-light hover:border-primary-light hover:bg-primary-light/0 group inline-flex h-[66px] items-center justify-center gap-x-[13px] rounded-[60px] border border-transparent px-6 transition-colors">
-              <span class="group-hover:text-primary-light text-lg font-semibold text-white transition-colors">Написати нам</span>
-              <svg class="group-hover:text-primary-light size-5 text-white transition-colors">
+          <div class="relative z-10 mx-auto max-w-[870px] px-4 text-center">
+            <h1 data-aos="fade-up" class="mb-6 text-[23px] font-extrabold !leading-snug text-white sm:mb-[35px] sm:text-[45px]">Допоможемо з отриманням <span class="text-secondary">посвідчення водія</span> усіх категорій</h1>
+            <p data-aos="fade-up" data-aos-delay="50" class="mb-6 text-xs text-white sm:mb-[35px] sm:text-xl">
+              Якщо Вам потрібна допомога у швидкому отриманні або виготовленні водійського (Україна, Польща), посвідчення машиніста / тракториста, техп-рту тоді звертайтеся до нас ми Вам обов'язково допоможемо.
+            </p>
+            <a
+              data-aos="fade-up"
+              data-aos-delay="100"
+              href="https://t.me/tsc_dopomoga_online"
+              class="group inline-flex h-[58px] items-center justify-center gap-x-[13px] rounded-[60px] border border-transparent bg-primary-light px-6 transition-colors hover:border-primary-light hover:bg-primary-light/0 sm:h-[66px]">
+              <span class="text-base font-semibold text-white transition-colors group-hover:text-primary-light sm:text-lg">Написати нам</span>
+              <svg class="size-5 text-white transition-colors group-hover:text-primary-light">
                 <use href="./sprites/sprite.svg#icon-tg"></use>
               </svg>
             </a>
           </div>
         </section>
 
-        <section id="about" class="py-[120px]">
+        <section id="about" class="py-[50px] lg:py-[120px]">
           <div class="container">
             <div class="relative">
               <div class="mb-[70px] max-w-[550px]">
-                <h2 class="mb-[50px] text-[38px] font-extrabold leading-snug text-typo-dark">Про TSC helper</h2>
-                <ul class="mb-10 space-y-5">
+                <h2 data-aos="fade-up" class="mb-[30px] text-[28px] font-extrabold leading-snug text-typo-dark max-sm:text-center sm:mb-[50px] sm:text-[38px]">Про TSC helper</h2>
+                <ul data-aos="fade-up" class="relative z-10 mb-10 space-y-5">
                   <li class="flex items-center gap-x-2">
                     <svg class="size-5">
                       <use href="./sprites/sprite.svg#icon-check"></use>
                     </svg>
-                    <span class="text-base">Працюємо з 2012 року, тисячі задоволених клієнтів.</span>
+                    <span class="text-sm sm:text-base">Працюємо з 2012 року, тисячі задоволених клієнтів.</span>
                   </li>
                   <li class="flex items-center gap-x-2">
                     <svg class="size-5">
                       <use href="./sprites/sprite.svg#icon-check"></use>
                     </svg>
-                    <span class="text-base">Безкоштовна консультація у зручному для Вас месенджері.</span>
+                    <span class="text-sm sm:text-base">Безкоштовна консультація у зручному для Вас месенджері.</span>
                   </li>
                   <li class="flex items-center gap-x-2">
                     <svg class="size-5">
                       <use href="./sprites/sprite.svg#icon-check"></use>
                     </svg>
-                    <span class="text-base">Прискорена процедура отримання док-нтів.</span>
+                    <span class="text-sm sm:text-base">Прискорена процедура отримання док-нтів.</span>
                   </li>
                   <li class="flex items-center gap-x-2">
                     <svg class="size-5">
                       <use href="./sprites/sprite.svg#icon-check"></use>
                     </svg>
-                    <span class="text-base">Доступні ціни, надійність, якість та анонімність гарантовані!</span>
+                    <span class="text-sm sm:text-base">Доступні ціни, надійність, якість та анонімність гарантовані!</span>
                   </li>
                   <li class="flex items-center gap-x-2">
                     <svg class="size-5">
                       <use href="./sprites/sprite.svg#icon-check"></use>
                     </svg>
-                    <span class="text-base">Працюємо післяплатою!</span>
+                    <span class="text-sm sm:text-base">Працюємо післяплатою!</span>
                   </li>
                   <li class="flex items-center gap-x-2">
                     <svg class="size-5">
                       <use href="./sprites/sprite.svg#icon-check"></use>
                     </svg>
-                    <span class="text-base">Експрес замовлення док-нтів кур'єрськими службами.</span>
+                    <span class="text-sm sm:text-base">Експрес замовлення док-нтів кур'єрськими службами.</span>
                   </li>
                 </ul>
-                <a href="#" class="bg-primary-light hover:border-primary-light hover:bg-primary-light/0 group inline-flex h-[66px] items-center justify-center gap-x-[13px] rounded-[60px] border border-transparent px-6 transition-colors">
-                  <span class="group-hover:text-primary-light text-lg font-semibold text-white transition-colors">Отримати консультацію</span>
+                <a
+                  data-aos="fade-up"
+                  href="https://t.me/tsc_dopomoga_online"
+                  class="group mx-auto inline-flex h-[58px] items-center justify-center gap-x-[13px] rounded-[60px] border border-transparent bg-primary-light px-6 transition-colors hover:border-primary-light hover:bg-primary-light/0 max-sm:flex max-sm:w-full max-sm:max-w-[260px] sm:h-[66px]">
+                  <span class="text-base font-semibold text-white transition-colors group-hover:text-primary-light sm:text-lg">Отримати консультацію</span>
                 </a>
               </div>
-              <img src="./img/main-image.webp" alt="Про TSC helper" class="absolute right-0 top-1/2 -translate-y-1/2" />
+              <div class="absolute right-0 top-1/2 -translate-y-1/2 max-lg:hidden">
+                <img data-aos="fade-up" data-aos-delay="100" src="./img/main-image.webp" alt="Про TSC helper" class="h-full w-full object-cover" />
+              </div>
             </div>
 
-            <div class="grid grid-cols-4 justify-between gap-x-[60px] divide-x [&>*:not(:last-child)]:pl-[60px]">
-              <div class="flex flex-col items-center">
-                <p class="text-secondary mb-[27px] text-[46px] font-bold">> 5 000</p>
-                <p class="text-center text-base">Задоволених клієнтів</p>
+            <div class="grid grid-cols-1 justify-between gap-x-[60px] gap-y-6 sm:grid-cols-2 xl:grid-cols-4 xl:divide-x xl:[&>*:not(:last-child)]:pl-[60px]">
+              <div data-aos="fade-up"  class="flex flex-col items-center">
+                <p class="mb-2 text-[38px] font-bold text-secondary sm:mb-[27px] sm:text-[46px]">> 5 000</p>
+                <p class="text-center text-sm sm:text-base">Задоволених клієнтів</p>
               </div>
-              <div class="flex flex-col items-center">
-                <p class="text-secondary mb-[27px] text-[46px] font-bold">100%</p>
-                <p class="text-center text-base">Оплата після отримання док-нтів</p>
+              <div data-aos="fade-up" data-aos-delay="50" class="flex flex-col items-center">
+                <p class="mb-2 text-[38px] font-bold text-secondary sm:mb-[27px] sm:text-[46px]">100%</p>
+                <p class="text-center text-sm sm:text-base">Оплата після отримання док-нтів</p>
               </div>
-              <div class="flex flex-col items-center">
-                <p class="text-secondary mb-[27px] text-[46px] font-bold">100%</p>
-                <p class="text-center text-base">Всі наші док-нти виготовленні на оригінальних бланках</p>
+              <div data-aos="fade-up" data-aos-delay="100" class="flex flex-col items-center">
+                <p class="mb-2 text-[38px] font-bold text-secondary sm:mb-[27px] sm:text-[46px]">100%</p>
+                <p class="text-center text-sm sm:text-base">Всі наші док-нти виготовленні на оригінальних бланках</p>
               </div>
-              <div class="flex flex-col items-center">
-                <p class="text-secondary mb-[27px] text-[46px] font-bold">> 8</p>
-                <p class="text-center text-base">Вже понад 8 років наша компанія існує на ринку</p>
+              <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col items-center">
+                <p class="mb-2 text-[38px] font-bold text-secondary sm:mb-[27px] sm:text-[46px]">> 8</p>
+                <p class="text-center text-sm sm:text-base">Вже понад 8 років наша компанія існує на ринку</p>
               </div>
             </div>
           </div>
         </section>
 
-        <section id="services" class="bg-[#221E16] pb-[80px] pt-[60px]">
+        <section id="services" class="bg-[#221E16] py-[50px] sm:pb-[80px] sm:pt-[60px]">
           <div class="container">
-            <h2 class="mb-[60px] text-center text-[38px] font-extrabold leading-snug text-white">Послуги</h2>
-            <div class="grid grid-cols-4 gap-x-5">
-              <div class="bg-primary-dark px-2.5 pb-5 pt-2.5">
-                <img src="./img/service-1.webp" alt="Категорія A1, A" class="h-[150px] w-full object-cover mb-5" />
-                <h3 class="text-lg font-bold !leading-relaxed text-white mb-5">Категорія A1, A</h3>
-                <p class="text-sm !leading-snug text-white mb-5"><strong>Категорія А1</strong> дозволяє керувати мопедами, моторолерами і скутерами з об'ємом двигуна до 50 куб. см або потужністю електродвигуна до 4 кВт; -</p>
-                <a href="#" class="bg-primary-light hover:border-primary-light hover:text-primary-light flex h-[49px] w-full items-center justify-center border border-transparent text-lg font-semibold text-white transition-colors hover:bg-transparent"
+            <h2 data-aos="fade-up" class="mb-[30px] text-center text-[30px] font-extrabold leading-snug text-white sm:mb-[60px] sm:text-[38px]">Послуги</h2>
+            <div data-aos="fade-up" class="grid grid-cols-[300px] gap-x-5 gap-y-5 max-sm:justify-center sm:grid-cols-2 lg:grid-cols-4">
+              <div class="flex h-full flex-col border-b border-secondary bg-primary-dark px-2.5 pb-5 pt-2.5">
+                <img src="./img/service-1.webp" alt="Категорія A1, A" class="mb-5 h-[150px] w-full object-cover" />
+                <h3 class="mb-5 text-lg font-bold !leading-relaxed text-white">Категорія A1, A</h3>
+                <p class="mb-5 grow text-sm !leading-snug text-white"><strong>Категорія А1</strong> дозволяє керувати мопедами, моторолерами і скутерами з об'ємом двигуна до 50 куб. см або потужністю електродвигуна до 4 кВт; -</p>
+                <a
+                  href="https://t.me/tsc_dopomoga_online"
+                  class="flex h-[49px] w-full items-center justify-center border border-transparent bg-primary-light text-base font-semibold text-white transition-colors hover:border-primary-light hover:bg-transparent hover:text-primary-light sm:text-lg"
+                  >Замовити послугу</a
+                >
+              </div>
+              <div class="flex h-full flex-col border-b border-secondary bg-primary-dark px-2.5 pb-5 pt-2.5">
+                <img src="./img/service-2.webp" alt="Категорія B1,B" class="mb-5 h-[150px] w-full object-cover" />
+                <h3 class="mb-5 text-lg font-bold !leading-relaxed text-white">Категорія B1,B</h3>
+                <p class="mb-5 grow text-sm !leading-snug text-white"><strong>Категорія B1</strong> - дає змогу керувати трициклами і квадроциклами масою до 400 кг.</p>
+                <a
+                  href="https://t.me/tsc_dopomoga_online"
+                  class="flex h-[49px] w-full items-center justify-center border border-transparent bg-primary-light text-base font-semibold text-white transition-colors hover:border-primary-light hover:bg-transparent hover:text-primary-light sm:text-lg"
+                  >Замовити послугу</a
+                >
+              </div>
+              <div class="flex h-full flex-col border-b border-secondary bg-primary-dark px-2.5 pb-5 pt-2.5">
+                <img src="./img/service-3.webp" alt="Категорія C1, C, CE" class="mb-5 h-[150px] w-full object-cover" />
+                <h3 class="mb-5 text-lg font-bold !leading-relaxed text-white">Категорія C1, C, CE</h3>
+                <p class="mb-5 grow text-sm !leading-snug text-white"><strong>Категорія С1</strong> - дає право водити "легкі" вантажівки масою від 3.5 до 7.5 тонн.</p>
+                <a
+                  href="https://t.me/tsc_dopomoga_online"
+                  class="flex h-[49px] w-full items-center justify-center border border-transparent bg-primary-light text-base font-semibold text-white transition-colors hover:border-primary-light hover:bg-transparent hover:text-primary-light sm:text-lg"
+                  >Замовити послугу</a
+                >
+              </div>
+              <div class="flex h-full flex-col border-b border-secondary bg-primary-dark px-2.5 pb-5 pt-2.5">
+                <img src="./img/service-4.webp" alt="Категорія D1" class="mb-5 h-[150px] w-full object-cover" />
+                <h3 class="mb-5 text-lg font-bold !leading-relaxed text-white">Категорія D1</h3>
+                <p class="mb-5 grow text-sm !leading-snug text-white"><strong>Категорія D1</strong> перевезення не більше 16. Право на керування надається з 21 років.</p>
+                <a
+                  href="https://t.me/tsc_dopomoga_online"
+                  class="flex h-[49px] w-full items-center justify-center border border-transparent bg-primary-light text-base font-semibold text-white transition-colors hover:border-primary-light hover:bg-transparent hover:text-primary-light sm:text-lg"
                   >Замовити послугу</a
                 >
               </div>
@@ -106,39 +149,39 @@
           </div>
         </section>
 
-        <section class="relative bg-cover bg-no-repeat pb-[60px] pt-10 sm:pt-[60px]" style="background-image: url(&quot;./img/green-bg.webp&quot;)">
+        <section id="works" class="py-[50px] lg:py-[120px]">
           <div class="container">
-            <div data-aos="fade-up" class="relative mb-[55px] sm:mb-[75px]">
-              <h2 class="text-typo text-2xl font-extrabold !leading-none sm:text-4xl">Як ми працюємо</h2>
-              <span class="absolute -bottom-[14px] left-0 h-[2px] w-[78px] bg-typo-dark"></span>
-            </div>
-            <div data-aos="fade-up" class="default-slider w-full lg:overflow-hidden">
-              <div class="default-slider-wrapper flex w-full">
-                <div class="default-slider-slide flex shrink-0 flex-col items-center rounded-[5px] bg-white px-5 py-7">
-                  <img src="./img/icon-1.webp" alt="Будь ласка, зв'яжіться з нами через зручний для вас месенджер." class="mb-10" />
-                  <h3 class="text-center text-base font-semibold !leading-snug text-typo-dark">Будь ласка, зв'яжіться з нами через зручний для вас месенджер.</h3>
-                </div>
-                <div class="default-slider-slide flex shrink-0 flex-col items-center rounded-[5px] bg-white px-5 py-7">
-                  <img src="./img/icon-2.webp" alt="Підготовлюються документи" class="mb-10" />
-                  <h3 class="text-center text-base font-semibold !leading-snug text-typo-dark">Підготовлюються документи.</h3>
-                </div>
-                <div class="default-slider-slide flex shrink-0 flex-col items-center rounded-[5px] bg-white px-5 py-7">
-                  <img src="./img/icon-3.webp" alt="Надсилаємо документи через Нову Пошту." class="mb-10" />
-                  <h3 class="text-center text-base font-semibold !leading-snug text-typo-dark">Надсилаємо документи через Нову Пошту.</h3>
-                </div>
-                <div class="default-slider-slide flex shrink-0 flex-col items-center rounded-[5px] bg-white px-5 py-7">
-                  <img src="./img/icon-4.webp" alt="Перевіряєте документи та оплачуєте замовлення." class="mb-10" />
-                  <h3 class="text-center text-base font-semibold !leading-snug text-typo-dark">Перевіряєте документи та оплачуєте замовлення.</h3>
-                </div>
+            <h2 data-aos="fade-up" class="mb-[30px] text-center text-[30px] font-extrabold leading-snug text-typo-dark sm:mb-[60px] sm:text-[38px]">Як це працює</h2>
+            <div data-aos="fade-up" class="grid grid-cols-1 gap-x-[30px] gap-y-5 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="relative flex flex-col items-center gap-y-6 sm:gap-y-[26px]">
+                <img src="./img/arrow1.svg" alt="arrow" class="absolute -right-[60px] -top-10 max-lg:hidden xl:-right-[70px]" />
+                <img src="./img/icon1.svg" alt="Ми зв'яжемося з Вами" class="h-[96px] w-[92px] object-contain sm:h-[154px] sm:w-[157px]" />
+                <h3 class="text-center text-base font-bold text-secondary sm:text-lg">Ми зв'яжемося з Вами</h3>
+                <p class="text-center text-sm !leading-relaxed text-typo-dark sm:text-base">Уточнюємо всі деталі і беремо ваше замовлення в роботу</p>
+              </div>
+              <div class="relative flex flex-col items-center gap-y-6 sm:gap-y-[26px]">
+                <img src="./img/arrow2.svg" alt="arrow" class="absolute -right-[80px] top-[120px] max-lg:hidden xl:top-[110px]" />
+                <img src="./img/icon2.svg" alt="Оформлюємо док-нти" class="h-[96px] w-[92px] object-contain sm:h-[154px] sm:w-[157px]" />
+                <h3 class="text-center text-base font-bold text-secondary sm:text-lg">Оформлюємо док-нти</h3>
+                <p class="text-center text-sm !leading-relaxed text-typo-dark sm:text-base">Вносимоо вас в базу, і готуємо документи</p>
+              </div>
+              <div class="relative flex flex-col items-center gap-y-6 sm:gap-y-[26px]">
+                <img src="./img/arrow3.svg" alt="arrow" class="absolute -right-[70px] -top-10 max-lg:hidden" />
+                <img src="./img/icon3.svg" alt="Доставляємо на вашу НП" class="h-[96px] w-[92px] object-contain sm:h-[154px] sm:w-[157px]" />
+                <h3 class="text-center text-base font-bold text-secondary sm:text-lg">Доставляємо на вашу НП</h3>
+                <p class="text-center text-sm !leading-relaxed text-typo-dark sm:text-base">Доставка здійснюється по всій території України</p>
+              </div>
+              <div class="flex flex-col items-center gap-y-6 sm:gap-y-[26px]">
+                <img src="./img/icon4.svg" alt="Ви перевіряєте і сплачуєте" class="h-[96px] w-[92px] object-contain sm:h-[154px] sm:w-[157px]" />
+                <h3 class="text-center text-base font-bold text-secondary sm:text-lg">Ви перевіряєте і сплачуєте</h3>
+                <p class="text-center text-sm !leading-relaxed text-typo-dark sm:text-base">Оплата відбувається тільки після отримання та перевірки</p>
               </div>
             </div>
-            <div
-              class="default-slider-pagination mt-[30px] flex justify-center space-x-[30px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-white [&>.swiper-pagination-bullet]:opacity-90"></div>
           </div>
         </section>
 
         <section id="comments">
-          <div class="container py-[60px] lg:py-[120px]">
+          <div class="container">
             <div class="flex flex-col max-lg:items-center lg:flex-row lg:space-x-[60px] xl:space-x-[132px]">
               <div data-aos="fade-up" class="w-310px] shrink-0 pt-5 max-lg:mb-10">
                 <div data-aos="fade-up" class="mb-[55px] flex max-sm:justify-center">
@@ -151,13 +194,13 @@
                   </div>
                 </div>
                 <div class="flex space-x-[25px] max-lg:justify-center">
-                  <button class="quotes-prev group flex h-10 w-[61px] items-center justify-center rounded-[2px] border border-t-transparent bg-primary transition-colors hover:border-primary hover:bg-white" type="button" aria-label="Попередній слайд">
-                    <svg class="h-5 w-8 text-white transition-colors group-hover:text-primary">
+                  <button class="quotes-prev group flex h-10 w-[61px] items-center justify-center rounded-3xl border border-t-transparent bg-primary-light transition-colors hover:border-primary-light hover:bg-white" type="button" aria-label="Попередній слайд">
+                    <svg class="h-5 w-8 text-white group-hover:text-primary-light">
                       <use href="./sprites/sprite.svg#icon-arrow-2"></use>
                     </svg>
                   </button>
-                  <button class="quotes-next group flex h-10 w-[61px] items-center justify-center rounded-[2px] border border-t-transparent bg-primary transition-colors hover:border-primary hover:bg-white" type="button" aria-label="Наступний слайд">
-                    <svg class="h-5 w-8 rotate-180 text-white transition-colors group-hover:text-primary">
+                  <button class="quotes-next group flex h-10 w-[61px] items-center justify-center rounded-3xl border border-t-transparent bg-primary-light transition-colors hover:border-primary-light hover:bg-white" type="button" aria-label="Наступний слайд">
+                    <svg class="h-5 w-8 rotate-180 text-white group-hover:text-primary-light">
                       <use href="./sprites/sprite.svg#icon-arrow-2"></use>
                     </svg>
                   </button>
@@ -169,7 +212,7 @@
                   <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
                     <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
                     <div class="mb-[22.5px] flex items-center gap-x-[13px]">
-                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <img src="./img/avatar.webp" alt="Сергій А." class="size-[60px]" />
                       <div class="relative w-full py-[15px]">
                         <p class="w-full text-base font-bold !leading-snug text-typo-dark">Сергій А.</p>
                         <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
@@ -180,7 +223,7 @@
                   <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
                     <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
                     <div class="mb-[22.5px] flex items-center gap-x-[13px]">
-                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <img src="./img/avatar.webp" alt="Сергій А." class="size-[60px]" />
                       <div class="relative w-full py-[15px]">
                         <p class="w-full text-base font-bold !leading-snug text-typo-dark">Сергій А.</p>
                         <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
@@ -191,7 +234,7 @@
                   <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
                     <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
                     <div class="mb-[22.5px] flex items-center gap-x-[13px]">
-                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <img src="./img/avatar.webp" alt="Сергій А." class="size-[60px]" />
                       <div class="relative w-full py-[15px]">
                         <p class="w-full text-base font-bold !leading-snug text-typo-dark">Сергій А.</p>
                         <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
@@ -202,7 +245,7 @@
                   <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
                     <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
                     <div class="mb-[22.5px] flex items-center gap-x-[13px]">
-                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <img src="./img/avatar.webp" alt="Сергій А." class="size-[60px]" />
                       <div class="relative w-full py-[15px]">
                         <p class="w-full text-base font-bold !leading-snug text-typo-dark">Сергій А.</p>
                         <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
@@ -213,7 +256,7 @@
                   <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
                     <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
                     <div class="mb-[22.5px] flex items-center gap-x-[13px]">
-                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <img src="./img/avatar.webp" alt="Сергій А." class="size-[60px]" />
                       <div class="relative w-full py-[15px]">
                         <p class="w-full text-base font-bold !leading-snug text-typo-dark">Сергій А.</p>
                         <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
@@ -224,7 +267,7 @@
                   <div class="quotes-slider-slide relative shrink-0 bg-[#F5F5F5] p-4 pb-10">
                     <img src="./img/quote.svg" alt="quote symbol" class="absolute right-4 top-4" />
                     <div class="mb-[22.5px] flex items-center gap-x-[13px]">
-                      <img src="./img/avatar-1.webp" alt="Сергій А." class="size-[60px]" />
+                      <img src="./img/avatar.webp" alt="Сергій А." class="size-[60px]" />
                       <div class="relative w-full py-[15px]">
                         <p class="w-full text-base font-bold !leading-snug text-typo-dark">Сергій А.</p>
                         <span class="absolute bottom-0 left-0 h-[1px] w-full bg-gray-200 shadow-sm shadow-white"></span>
@@ -234,7 +277,7 @@
                   </div>
                 </div>
                 <div
-                  class="quotes-pagination mt-[40px] flex justify-center space-x-[20px] max-sm:hidden [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
+                  class="quotes-pagination mt-[40px] flex justify-center space-x-[20px] max-sm:hidden [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[4px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary-light [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
               </div>
             </div>
 
@@ -242,7 +285,7 @@
               <div data-aos="fade-up" class="mx-auto max-w-[1350px] px-4">
                 <div class="relative">
                   <button
-                    class="comments-prev group absolute left-0 top-1/2 z-10 flex size-[32px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-transparent bg-white shadow-md transition-colors hover:border-primary hover:bg-primary sm:size-[50px] [&.swiper-button-lock]:hidden"
+                    class="comments-prev hover:border-primary hover:bg-primary group absolute left-0 top-1/2 z-10 flex size-[32px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-transparent bg-white shadow-md transition-colors sm:size-[50px] [&.swiper-button-lock]:hidden"
                     type="button"
                     aria-label="Попередній слайд">
                     <svg class="text-typo size-6 rotate-180 transition-colors group-hover:text-white">
@@ -250,7 +293,7 @@
                     </svg>
                   </button>
                   <button
-                    class="comments-next group absolute right-0 top-1/2 z-10 flex size-[32px] -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full border border-transparent bg-white shadow-md transition-colors hover:border-primary hover:bg-primary sm:size-[50px] [&.swiper-button-lock]:hidden"
+                    class="comments-next hover:border-primary hover:bg-primary group absolute right-0 top-1/2 z-10 flex size-[32px] -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full border border-transparent bg-white shadow-md transition-colors sm:size-[50px] [&.swiper-button-lock]:hidden"
                     type="button"
                     aria-label="Наступний слайд">
                     <svg class="text-typo size-6 transition-colors group-hover:text-white">
@@ -262,62 +305,78 @@
                       <div class="comments-slider-slide flex shrink-0 flex-col items-center">
                         <a data-fslightbox href="./videos/1.mp4" class="group relative block h-full w-full overflow-hidden">
                           <img src="./img/com/1.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                          <img src="./img/time-line.webp" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
                         </a>
                       </div>
                       <div class="comments-slider-slide flex shrink-0 flex-col items-center">
                         <a data-fslightbox href="./videos/2.mp4" class="group relative block h-full w-full overflow-hidden">
                           <img src="./img/com/2.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                          <img src="./img/time-line.webp" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
                         </a>
                       </div>
                       <div class="comments-slider-slide flex shrink-0 flex-col items-center">
                         <a data-fslightbox href="./videos/3.mp4" class="group relative block h-full w-full overflow-hidden">
                           <img src="./img/com/3.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                          <img src="./img/time-line.webp" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
                         </a>
                       </div>
                       <div class="comments-slider-slide flex shrink-0 flex-col items-center">
                         <a data-fslightbox href="./videos/4.mp4" class="group relative block h-full w-full overflow-hidden">
                           <img src="./img/com/4.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                          <img src="./img/time-line.webp" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
                         </a>
                       </div>
                       <div class="comments-slider-slide flex shrink-0 flex-col items-center">
                         <a data-fslightbox href="./videos/5.mp4" class="group relative block h-full w-full overflow-hidden">
                           <img src="./img/com/5.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                          <img src="./img/time-line.webp" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
                         </a>
                       </div>
                       <div class="comments-slider-slide flex shrink-0 flex-col items-center">
                         <a data-fslightbox href="./videos/6.mp4" class="group relative block h-full w-full overflow-hidden">
                           <img src="./img/com/6.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                          <img src="./img/time-line.webp" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
                         </a>
                       </div>
                       <div class="comments-slider-slide flex shrink-0 flex-col items-center">
                         <a data-fslightbox href="./videos/7.MP4" class="group relative block h-full w-full overflow-hidden">
                           <img src="./img/com/7.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                          <img src="./img/time-line.webp" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
                         </a>
                       </div>
                       <div class="comments-slider-slide flex shrink-0 flex-col items-center">
                         <a data-fslightbox href="./videos/8.MP4" class="group relative block h-full w-full overflow-hidden">
                           <img src="./img/com/8.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-                          <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                          <img src="./img/time-line.webp" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div
-                  class="pagination-comments mt-[40px] flex justify-center space-x-[20px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
+                  class="pagination-comments mt-[40px] flex justify-center space-x-[20px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[4px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary-light [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 [&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
               </div>
             </div>
           </div>
         </section>
+
+        <section id="contacts" class="mt-[50px] border-t border-dashed bg-[#FAFAFA] py-[50px] lg:mt-[154px]">
+          <div class="container relative">
+            <img src="./img/car-bottom.webp" alt="Напішить нам шоб дізнатись подробиці" class="absolute -right-10 top-1/2 -translate-y-1/2 max-lg:hidden" />
+            <div class="max-w-[514px]">
+              <h2 class="mb-5 text-[29px] font-extrabold sm:text-[38px]"><span class="text-secondary">Напішить нам</span> шоб дізнатись подробиці</h2>
+              <p class="mb-[44px] text-lg font-semibold !leading-snug text-typo-dark sm:text-xl">Безкоштовна консультація 24/7</p>
+              <p class="mb-[30px] text-sm !leading-snug text-typo-dark sm:text-base">Щоб з нами зв'язатись натисніть на зручний мессенджер</p>
+              <a
+                href="https://t.me/tsc_dopomoga_online"
+                class="group inline-flex h-[58px] items-center justify-center gap-x-[13px] rounded-[60px] border border-transparent bg-primary-light px-6 transition-colors hover:border-primary-light hover:bg-primary-light/0 max-sm:text-base sm:h-[66px]">
+                <span class="text-lg font-semibold text-white transition-colors group-hover:text-primary-light">Отримати консультацію</span>
+              </a>
+            </div>
+          </div>
+        </section>
       </main>
-      @@include('components/footer.html', { }) @@include('components/modal.html', { })
+      @@include('components/footer.html', { })
     </div>
     <script type="module" crossorigin src="./js/app.min.js"></script>
   </body>

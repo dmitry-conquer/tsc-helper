@@ -31,37 +31,6 @@ if (quotesSlider) {
   });
 }
 
-const defaultSlider = document.querySelector(".default-slider");
-if (quotesSlider) {
-  new Swiper(defaultSlider, {
-    modules: [Pagination],
-    wrapperClass: "default-slider-wrapper",
-    slideClass: "default-slider-slide",
-    slidesPerView: 4,
-    spaceBetween: 30,
-    speed: 1200,
-
-    pagination: {
-      clickable: true,
-      el: ".default-slider-pagination",
-    },
-    breakpoints: {
-      0: {
-        slidesPerView: 1.2,
-      },
-      540: {
-        slidesPerView: 2.1,
-      },
-      768: {
-        slidesPerView: 2.5,
-      },
-      1200: {
-        slidesPerView: 4,
-      },
-    },
-  });
-}
-
 const commentsSlider = document.querySelector(".comments-slider");
 if (commentsSlider) {
   new Swiper(commentsSlider, {
@@ -87,7 +56,7 @@ if (commentsSlider) {
         spaceBetween: 12,
       },
       1024: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 30,
       },
     },
